@@ -18,7 +18,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceMap": true,
-    "COMMENT": "this should be toggled false so that the bundler is able to collect the transpiled output",
     "noEmit": false,
     "jsx": "react-jsx"
   },

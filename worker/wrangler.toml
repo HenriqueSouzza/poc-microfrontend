@@ -1,0 +1,8 @@
+name = "pock-microfrontend"
+compatibility_date = "2023-02-02"
+
+[dev]
+ip = "0.0.0.0"
+port = 5100
+local_protocol="http"
+upstream_protocol="https"
