@@ -9,16 +9,19 @@
 Na raiz do projeto:
 
 > - execute <b>yarn install</b>
+> - execute <b>yarn build</b>
 > - execute <b>yarn build:start</b>
 > - Verifique se está funcionando o host <b>http://localhost:8082</b> 
+> - Deixe essa etapa rodando em um aba do terminal
 
 Dentro da pasta worker:
 
-> Dado que você está na raiz do projeto, siga: 
-> - cd worker
-> - Execute o comando <b>npx wrangler dev src/index.ts</b> (Será necessário criar uma conta e logar no cloudflare)
-> - Após o login, volte ao terminal e pressione a tecla <b>L</b> do teclado
-> - Verifique se está funcionando o host <b>http://localhost:5100</b>
+> - Abra uma outra aba no terminal
+> - Dado que você está na raiz do projeto, siga: 
+> * cd worker
+> * Execute o comando <b>npx wrangler dev src/index.ts</b> (Será necessário criar uma conta e logar no cloudflare)
+> * Após o login, volte ao terminal e pressione a tecla <b>L</b> do teclado
+> * Verifique se está funcionando o host <b>http://localhost:5100</b>
 
 Vamos colocar o clientearea para rodar
 
