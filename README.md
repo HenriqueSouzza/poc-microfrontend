@@ -33,5 +33,5 @@ Vamos colocar o clientearea para rodar
 > - No clientarea, abra o arquivo <b>Makefile</b>
 > - Na linha 8, adiciona o parâmetro <b>PUBLIC_URL=http://cliente.whmcs.brasil:5101/</b>, ficará assim:
 > ![image](https://user-images.githubusercontent.com/52017795/216627841-fe8752a0-730c-40da-9823-72a9820f92a7.png)
-> - Execute o comando <b>Make build-br</b>
-> Após o build ser gerado, execute o comando <b>PORT=5101 npx serve -s build</b>
+> - Execute o comando <b>make build-br</b>
+> - Após o build ser gerado, execute o comando <b>PORT=5101 npx serve -s build</b>
